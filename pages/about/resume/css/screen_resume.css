@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:300);
+@import url(http://fonts.googleapis.com/css?family=Jura:600);
+
+body {
+  margin:5em;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight:300;
+  width:780px; /*Tried to make dynamic display with resizing, but caused issues with float elements.Couldn't solve with specific absolute positioning. Had to chose "width" over "min" and "max"*/
+}
+
+#header{
+  border-width: 3px;
+  border-style: solid;
+  padding:0.7em;
+  max-width: 700px;
+  text-align:center;
+}
+
+#name {
+  color:rgb(30,120,300);
+  font-weight: 600;
+  font-size:20px;
+  line-height:0.5em;
+}
+
+ul.contactos {
+  list-style-type:none;
+  padding: 0em;
+}
+
+
+ul.pasiones {
+  font-weight: bold;
+  list-style-type:none;
+  padding: 0em;
+}
+
+#explore1 {
+
+}
+
+ul.exploraciones {
+  list-style-type:none;
+  padding: 0em;
+
+  /*float elements did not look right for the passions, explore,and education even with different margin, padding, widths
+
+  table format for "Explore nav looked busy and wasn't sure how much it translated as nav"*/
+}
+
+
+h2,h3,h4 {
+  font-family:'Jura', sans-serif;
+  font-weight:600;
+}
+
+h2 {
+  color:rgb(30,120,300);
+}
+
+#writing1 {
+  border-width: 1.5px;
+  border-style: solid;
+  padding:0.7em;
+  max-width: 700px;
+  margin:2em;
+  /*Used "em" units for elements w/o text for spacing and "px" for elements including text*/
+}
+
+#public1 {
+    border-width: 1.5px;
+    border-style: solid;
+    padding:0.7em;
+    max-width: 700px;
+    margin:2em;
+}
+
+#employment1 {
+  border-width: 1.5px;
+  border-style: solid;
+  padding:0.7em;
+  max-width: 700px;
+  margin:2em;
+}
+
+#achievements1 {
+  border-width: 1.5px;
+  border-style: solid;
+  padding:0.7em;
+  max-width: 700px;
+  margin:2em;
+}
+
+#education1{
+  border-width: 1.5px;
+  border-style: solid;
+  padding:0.7em;
+  max-width: 700px;
+  margin:2em;
+}
+
+
+#relcoursework{
+  border-width: 1.5px;
+  border-style: solid;
+  padding:0.7em;
+  max-width: 700px;
+  margin:2em;
+}
+
+
+#gradcoursework{
+  border-width: 1.5px;
+  border-style: solid;
+  padding:0.7em;
+  min-width:250px;
+  max-width: 700px;
+  margin:2em;
+  float:left;
+}
+
+
+#uggradcoursework{
+  border-width: 1.5px;
+  border-style: solid;
+  padding:0.7em;
+  min-width:250px;
+  max-width: 700px;
+  margin:2.25em;
+  float:right;
+}
+
+
+#skills1{
+  border-width: 1.5px;
+  border-style: solid;
+  padding:0.7em;
+  max-width: 700px;
+  min-width:650px;
+  margin:2em;
+}

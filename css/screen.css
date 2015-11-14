@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,600,900);
+@import url(http://fonts.googleapis.com/css?family=Jura:600);
+
+body {
+  margin:0 auto;
+  color: white;
+  width: 85%; /*In the interest of a liquid / responsive design besides our required iPhone max-width.*/
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: black;
+}
+
+h1 {
+  font-weight:900;
+  color:rgb(30,120,300);
+  text-align:center;
+}
+h2, h3 {
+color:rgb(30,120,300);
+text-align:left;
+}
+
+figcaption { /*errors in the embed code from Sound Cloud player, but messing with the errors breaks the code?*/
+  font-size: 15px
+}
+
+#horizontal_nav {
+  text-align: center;
+}
+
+#horizontal_nav li{
+  display: inline;
+  color:rgb(30,120,300);
+  font-weight: 600;
+  font-size: 22px;
+  padding: 1em;
+}
+
+ul.main_nav {
+  list-style-type:none; /*I am not sure if this is redudant / bloat? Don't want to remove in case the bullet styles reappear on other systems*/
+}
+
+#main_images {
+  width:1500px;
+  margin: 0 auto;
+}
+
+#cuentame_intro {
+  text-align: center;
+}
+
+#cuentame305_about {
+  text-align: left;
+}
+
+#opening_video {
+  text-align: center;
+}
+
+p.actions {
+  color:rgb(30,120,300);
+}
+
+footer {
+  font-size:14px;
+  text-align: right;
+}
+
+
+figure.activism {
+  text-align:right;
+}

@@ -1,0 +1,49 @@
+* { /*use of the "*" creates a fresh slate in terms of hierarchy, but could we use body if you wanted to preserve that hierarchy?*/
+  color:black;
+  background: transparent;
+
+  font-family: serif;
+  font-size: 11pt;
+}
+
+h1 {
+  font-size: 20pt;
+  font-weight:bold;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight:bold;
+}
+
+h3 {
+  font-size:14pt;
+}
+
+h4 {
+  font-size:12pt;
+}
+
+
+@page {
+  margin:0.75in; /*I must have had some tiny font and margins before because I removed content to keep the resume current and it is longer than before.*/
+}
+
+#Explore {
+  display: none;
+  /*Instead of a nav could you have page numbers inserted through code on a longer site, other than the resume.>*/
+}
+
+/*min-width {
+  display:none;
+}
+Do you need to worry about adjustable height. I think they just become static and defer to the body specified width. They shouldn't disturb print margins. Right?*/
+
+a[href^="http://"],
+a[href^="mailto:"]{
+  display:inline;
+}
+
+#Skills {
+  font-weight:bold;
+}

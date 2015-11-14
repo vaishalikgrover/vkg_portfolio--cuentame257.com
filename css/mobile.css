@@ -1,0 +1,28 @@
+@media (max-width: 320px) {
+
+
+
+body {
+  margin:0 auto;
+  color: white;
+  width: 85%; /*In the interest of a liquid / responsive design besides our required iPhone max-width.*/
+  font-family: sans-serif;
+  font-size: 20;
+  background-color: black
+}
+
+#mobile_view {
+  max-width:300px
+}
+
+
+img {
+  display:none;
+}
+
+footer{
+  display:none;
+
+}
+
+}
